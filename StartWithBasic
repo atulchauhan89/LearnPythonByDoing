@@ -1,0 +1,18 @@
+# My Enviornment
+  1) Windows 10 
+  2) Python 3.5.1
+Note: Commands or steps can be differ in case of different enviorment than mine.  
+
+# Verify the Python Version installed on your machine
+  1) Open CMD or powershell
+  2) Type Python
+  3) You will get Python version and other information about interpreter as example 
+  Python 3.5.1 (v3.5.1:37a07cee5969, Dec  6 2015, 01:38:48) [MSC v.1900 32 bit (Intel)] on win32
+  Type "help", "copyright", "credits" or "license" for more information.
+  4) You can exit from this command line by typing "exit()"
+Note: In case you didn't get the Python version then most probably path is not set in the in enviorment vaiable of system.In this case 
+Please follow the official document https://docs.python.org/3/using/windows.html.
+
+  
+  
+  
