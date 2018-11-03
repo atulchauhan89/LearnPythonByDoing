@@ -13,9 +13,11 @@ Note: Commands or steps can differ in case of the different environment than min
 Note: In case you didn't get the Python version then most probably the window's path is not set in the in the environment variable of the system. In this case 
 Please follow the official document https://docs.python.org/3/using/windows.html.
  
-# How to Comment the code?
+# How to Comment in Python?
 Clean code is the best code. Always try to comment on the most important features in your code or use name convention wisely. 
 Example:
- *Single Line Comment* "# Hello Pythonic guys"
- *Multi Line Comment*  """Line1 Hi,This is how we comment in multiple line. Python
-                        Line 2 is extremly fun language """ 
+ **Single Line Comment** "# Hello Pythonic guys"
+ **Multi Line Comment**  """Line1 Hi,This is how we comment in multiple line. Python
+                          Line 2 is extremly fun language """ 
+
+
