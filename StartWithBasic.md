@@ -16,8 +16,30 @@ Please follow the official document https://docs.python.org/3/using/windows.html
 # How to Comment in Python?
 Clean code is the best code. Always try to comment on the most important features in your code or use name convention wisely. 
 Example:
- **Single Line Comment** "# Hello Pythonic guys"
- **Multi Line Comment**  """Line1 Hi,This is how we comment in multiple line. Python
+ **Single Line Comment** 
+ "# Hello Pythonic guys"
+ 
+ **Multi Line Comment**  
+ """Line1 Hi,This is how we comment in multiple line. Python
                           Line 2 is extremly fun language """ 
+                          
+ # **Let's start with Basic Calculation**        
+ 
+ ## Type 2+2, let's check what you got 
+ Answer: 4
+ 
+ ## Type 3*5+4*2-6
+ Answer: 17
+ 
+ ## Type 19/3 (example of classic devision)
+ Answer: 6.33333333333
+ 
+ ## Type 19//3 (example of fractional devision)
+ Answer: 6 
+ Because it will discard the fractional part
+ 
+ 
+                          
+                          
 
 
