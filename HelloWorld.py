@@ -1,13 +1,13 @@
 """
-Let's start with Hello World program as a bignner.
+Let's start with Hello World program as a beginner.
 Python source files use the ".py" extension we called them as "modules". 
 """
 
 """
-import is used to import any module. We will import sys module,which is a standerd module.
-Modules are pre written code in Python.As everybody who is coding in python need same kind of functionality in there programs,
-So many Python comes with idea of Module. 
-Module are basically code or programs created by other developer to help the community.
+import is used to import any module. We will import sys module, which is a standard module.
+Modules are pre-written code in Python. As everybody who is coding in python need the same
+kind of functionality in there programs,So many Python comes with the idea of Module. 
+The module is basically code or programs created by other developers to help the community.
 """
 
 import sys
