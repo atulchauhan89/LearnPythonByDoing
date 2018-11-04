@@ -10,6 +10,7 @@ import sys
 # Create a main() function for stucturing our code.
 def main():
     print("Hello, World!")
+# "print()" is a built-in Python function that used for getting text output to the console.
 
 # Standard boilerplate to call the main() function to begin the program.    
 if __name__ == '__main__':
