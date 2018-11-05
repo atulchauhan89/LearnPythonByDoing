@@ -24,3 +24,6 @@ conn.commit()
 
 # Close the connection
 conn.close()
+
+
+# *Note* usually your SQL operations will need to use values from Python variables. You shouldn’t assemble your query using Python’s string operations because doing so is insecure; it makes your program vulnerable to an SQL injection attack 
