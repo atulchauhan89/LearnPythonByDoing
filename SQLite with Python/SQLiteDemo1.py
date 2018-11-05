@@ -15,6 +15,10 @@ c.execute('''CREATE TABLE employees(firstName text,lastName text, pay integer ) 
 # Insert a row with data
 c.execute("INSERT INTO employees VALUES ('Tom','Hardy','30000')")
 
+# Get first row from the employees table
+c.execute("SELECT * FROM employees")
+print(c.fetchone())
+
 # Always save the changes with commit command. If you will not commit then after closing the connection data will lost.
 conn.commit()
 
