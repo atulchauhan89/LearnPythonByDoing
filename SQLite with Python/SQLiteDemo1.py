@@ -10,6 +10,7 @@ conn = sqlite3.connect("employee.db")
 # Now create cursor object and then you can perform execute() method to perform SQL commands
 c = conn.cursor()
  
+# If you will run this create table command multiple time then you will face error "sqlite3.OperationalError: table employees already exists"
 # Created a table
 c.execute('''CREATE TABLE employees(firstName text,lastName text, pay integer ) ''' )
 
