@@ -3,6 +3,7 @@ import sqlite3
 # It provides a SQL interface compliant with the DB-API 2.0 specification described by PEP 249.
 # Made a connection object conn and Data will store in "employee.db" file.
 # If you want to create a database in RAM then use ":memory:"
+# If "employee.db" database is not available and you are trying to connect hen sqlite will create the database for you.
 
 conn = sqlite3.connect("employee.db")
 
