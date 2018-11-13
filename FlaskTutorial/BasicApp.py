@@ -16,18 +16,12 @@ def hello():
     return 'Hello, World'
 
 
-@app.route('/Form', methods=['GET','POST'])
-def send_data():
-    if request.method == 'GET':
-        print('Get method called')
-    else:
-        print('POST method returned')
-
 if __name__ == '__main__':  # It will run only when it will call directly
     app.run(debug=True)     # Start this app at local web server 
     
 # When you will execute this basic app you will see these lines on the terminal    
 # Click on the http://127.0.0.1:5000/ and Homepage will open with this line This is homepage
+# If you run http://127.0.0.1:5000/AboutUs then you will get Hello, World
 """
  C:\Program Files (x86)\Python35-32\python3.exe" D:/DemoProject/Flask/app.py
  * Serving Flask app "app" (lazy loading)
