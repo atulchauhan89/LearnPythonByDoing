@@ -19,6 +19,7 @@ def hello():
 if __name__ == '__main__':  # It will run only when it will call directly
     app.run(debug=True)     # Start this app at local web server 
     
+# If there is no main method on the app then run these two command in the terminal a) set FLASK_APP=app.py b)flask run    
 # When you will execute this basic app you will see these lines on the terminal    
 # Click on the http://127.0.0.1:5000/ and Homepage will open with this line This is homepage
 # If you run http://127.0.0.1:5000/AboutUs then you will get Hello, World
