@@ -1,21 +1,42 @@
-import sqlite3
+#importing sqlite3 
+import sqlite3          
 
+#using connect method of sqlite3 and storing it in an object named as con
 con = sqlite3.connect("database.db")
-c=con.cursor()
+
+#associate cursor with the connection object
+c=con.cursor() 
+
+#execute the queries using execute function and passing sql query into it. 
 c.execute("create table emp(eid int,ename varchar, designation varchar)")
+
+#inserting the data into the table using execute
 c.execute("insert into emp values(101,'isha','trainee'),(102,'lipika','associate'),(103,'ajeet','manager')")
+
+#accessing data from the table and storing it in c
 c.execute("select * from emp")
+
+#now looping through c and printing the objects in the table
 for i in  c:
     print(i)
-
+    
+#accessing a particular data row based on the requirement (here it is eid=101) 
 c.execute("select * from emp where eid=101")
 for i in c:
     print(i)
 
+#creating a table named dept having columns deptname and building using execute 
 c.execute("create table dept(deptname varchar, building varchar)")
+
+#inserting data into table using execute 
 c.execute("insert into dept values('Accounts','Shakespeare'),('Admin','Hallowe')")
+
+#accessing data objects and store it in c
 c.execute("select * from dept")
+
+#looping through c object to print the data objects value
 for i in  c:
     print(i)
-    
+
+#closing the connection to maintain security in the database 
 c.close()
