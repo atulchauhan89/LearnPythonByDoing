@@ -1,0 +1,7 @@
+f = open("Writetofile.txt", "a")
+f.write("Lipika\n")
+f.write("Ugain\n")
+f.write("Shivam\n")
+f.write("Sanjeev\n")
+print("Data written to the file using append mode")
+f.close()
