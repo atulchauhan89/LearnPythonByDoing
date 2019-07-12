@@ -1,0 +1,21 @@
+import sqlite3
+
+con = sqlite3.connect("database.db")
+c=con.cursor()
+c.execute("create table emp(eid int,ename varchar, designation varchar)")
+c.execute("insert into emp values(101,'isha','trainee'),(102,'lipika','associate'),(103,'ajeet','manager')")
+c.execute("select * from emp")
+for i in  c:
+    print(i)
+
+c.execute("select * from emp where eid=101")
+for i in c:
+    print(i)
+
+c.execute("create table dept(deptname varchar, building varchar)")
+c.execute("insert into dept values('Accounts','Shakespeare'),('Admin','Hallowe')")
+c.execute("select * from dept")
+for i in  c:
+    print(i)
+    
+c.close()
