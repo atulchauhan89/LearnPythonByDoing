@@ -17,5 +17,5 @@ c.execute("insert into dept values('Accounts','Shakespeare'),('Admin','Hallowe')
 c.execute("select * from dept")
 for i in  c:
     print(i)
-    
+
 c.close()
