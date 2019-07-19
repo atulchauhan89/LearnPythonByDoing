@@ -1,0 +1,17 @@
+# Create a virtual enviornment
+     follow LearnPythonByDoing/Basics/LocalEnviornmentSetup.md to understand about local enviornment.
+
+# Steps for installation
+1) Initiate virtual enviornment
+2) Install the django-> pip install django
+3) Verify the version-> django-admin --version
+4) Create a new project directory from cmd-> mkdir Django
+5) Start the project-> django-admin startproject Django_project(Project name)
+6) Verify the directory structure by -> dir command
+        You should have manage.oy and other file inside
+
+7) Go to Project directory Django_project.
+8) Start the development server -> python manage.py runserver
+      You will get local server URL and port number like this-> http://127.0.0.1:8000/
+      Run that local server on the web browser.
+      
